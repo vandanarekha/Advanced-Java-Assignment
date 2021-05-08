@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>SessionTracking</title>
+</head>
+<body>
+<form action="login">
+<table>
+<tr>
+<td>Username</td>
+<td><inputtype="text" name="t1"></td>
+</tr>
+<tr>
+<td><inputtype="submit" name="t2" value="OK"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
