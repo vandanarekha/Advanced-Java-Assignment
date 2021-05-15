@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Validate</title>
+</head>
+<body>
+<% String Username=request.getParameter("t1");
+   String Password=request.getParameter("t2");
+   if((Username.equals("admin")&&Password.equals   ("123")))
+   {
+     out.println("WELCOME TO FORM PROCESSING");
+   }
+   else
+   { 
+     out.println("Incorrect Username and Password");
+   }%>
+</body>
+</html>
